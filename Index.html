@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bimbel Delta - Bimbingan Belajar Terpercaya</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="p-2 bg-brand-600 text-white rounded-lg font-black text-xl tracking-wider">Δ</span>
+        <span class="font-bold text-xl text-slate-900 tracking-tight">Bimbel<span class="text-brand-600">Delta</span></span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#beranda" class="hover:text-brand-600 transition">Beranda</a>
+        <a href="#keunggulan" class="hover:text-brand-600 transition">Keunggulan</a>
+        <a href="#program" class="hover:text-brand-600 transition">Program Belajar</a>
+        <a href="#testimoni" class="hover:text-brand-600 transition">Testimoni</a>
+        <a href="#daftar" class="hover:text-brand-600 transition">Pendaftaran</a>
+      </nav>
+      <a href="#daftar" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white text-sm font-medium rounded-lg transition shadow-sm">
+        Daftar Sekarang
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="beranda" class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-b from-brand-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-brand-700 text-xs font-semibold mb-4">
+            🚀 Pendaftaran Siswa Baru TA 2026/2027 Telah Dibuka
+          </span>
+          <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+            Raih Prestasi Impian & Tembus PTN Idaman Bersama <span class="text-brand-600">Bimbel Delta</span>
+          </h1>
+          <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+            Metode belajar interaktif, tutor berpengalaman, drill soal intensif, serta pendampingan belajar personal untuk jenjang SD, SMP, SMA, dan persiapan UTBK-SNBT / Kedinasan.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#daftar" class="inline-flex justify-center items-center px-6 py-3.5 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition">
+              Daftar Kelas Baru
+            </a>
+            <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Bimbel%20Delta,%20saya%20mau%20konsultasi%20program%20belajar" target="_blank" class="inline-flex justify-center items-center gap-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold rounded-xl shadow-sm transition">
+              Konsultasi Gratis via WA
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="bg-gradient-to-tr from-brand-600 to-indigo-600 rounded-3xl p-8 text-white shadow-2xl">
+            <h3 class="text-2xl font-bold mb-4">Kenapa Harus Bimbel Delta?</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3">
+                <span class="p-1 bg-white/20 rounded-md mt-1">✓</span>
+                <div>
+                  <p class="font-bold">Kelas Kecil & Eksklusif</p>
+                  <p class="text-sm text-blue-100">Maksimal 10 siswa per kelas agar tutor fokus mendampingi tiap anak.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="p-1 bg-white/20 rounded-md mt-1">✓</span>
+                <div>
+                  <p class="font-bold">Bank Soal & Tryout Berkala</p>
+                  <p class="text-sm text-blue-100">Simulasi tryout dengan sistem penilaian aktual dan analisis kelemahan.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="p-1 bg-white/20 rounded-md mt-1">✓</span>
+                <div>
+                  <p class="font-bold">Konsultasi PR Sepuasnya</p>
+                  <p class="text-sm text-blue-100">Siswa bebas bertanya materi sekolah di luar jam les formal.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAM BELAJAR -->
+  <section id="program" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Pilihan Program Belajar</h2>
+        <p class="text-slate-600 mt-3">Kurikulum dirancang adaptif sesuai kebutuhan dan target belajar siswa.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between bg-slate-50">
+          <div>
+            <span class="px-3 py-1 bg-emerald-100 text-emerald-800 text-xs font-semibold rounded-full">Reguler</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-4">SD & SMP Juara</h3>
+            <p class="text-sm text-slate-600 mt-2">Fokus penguasaan konsep dasar Matematika, IPA, dan Bahasa Inggris untuk perbaikan nilai rapor harian.</p>
+            <div class="my-6">
+              <span class="text-3xl font-extrabold text-slate-900">Rp 350.000</span>
+              <span class="text-slate-500 text-sm">/ bulan</span>
+            </div>
+            <ul class="text-sm text-slate-600 space-y-2 mb-6">
+              <li>• 3x pertemuan / minggu</li>
+              <li>• Modul cetak lengkap</li>
+              <li>• Pendampingan persiapan PTS & PAS</li>
+            </ul>
+          </div>
+          <a href="#daftar" class="w-full text-center py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg font-medium transition">Pilih Paket</a>
+        </div>
+
+        <!-- Card 2 (Featured) -->
+        <div class="border-2 border-brand-600 rounded-2xl p-6 shadow-lg flex flex-col justify-between bg-white relative">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-600 text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
+            Paling Populer
+          </div>
+          <div>
+            <span class="px-3 py-1 bg-blue-100 text-brand-800 text-xs font-semibold rounded-full">Intensif</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-4">SMA & Sukses Rapor</h3>
+            <p class="text-sm text-slate-600 mt-2">Pendalaman materi Fisika, Kimia, Biologi, dan Matematika Lanjutan untuk persiapan seleksi SNBP.</p>
+            <div class="my-6">
+              <span class="text-3xl font-extrabold text-slate-900">Rp 550.000</span>
+              <span class="text-slate-500 text-sm">/ bulan</span>
+            </div>
+            <ul class="text-sm text-slate-600 space-y-2 mb-6">
+              <li>• 4x pertemuan / minggu</li>
+              <li>• Klinik tugas harian & PR</li>
+              <li>• Konsultasi penjurusan minat bakat</li>
+            </ul>
+          </div>
+          <a href="#daftar" class="w-full text-center py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg font-medium transition">Pilih Paket</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between bg-slate-50">
+          <div>
+            <span class="px-3 py-1 bg-amber-100 text-amber-800 text-xs font-semibold rounded-full">Spesial</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-4">UTBK-SNBT & Kedinasan</h3>
+            <p class="text-sm text-slate-600 mt-2">Drill soal TPS, Literasi, Penalaran Matematika, dan tes skolastik dengan trik cepat pengerjaan.</p>
+            <div class="my-6">
+              <span class="text-3xl font-extrabold text-slate-900">Rp 850.000</span>
+              <span class="text-slate-500 text-sm">/ bulan</span>
+            </div>
+            <ul class="text-sm text-slate-600 space-y-2 mb-6">
+              <li>• Drill soal harian & pembahasan cepat</li>
+              <li>• 10x Tryout CAT Real-time</li>
+              <li>• Analisis peluang lolos jurusan PTN</li>
+            </ul>
+          </div>
+          <a href="#daftar" class="w-full text-center py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg font-medium transition">Pilih Paket</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM PENDAFTARAN (TERHUBUNG KE WHATSAPP) -->
+  <section id="daftar" class="py-16 bg-slate-100">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl shadow-xl p-8 border border-slate-200">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Formulir Pendaftaran Siswa Baru</h2>
+          <p class="text-slate-600 text-sm mt-2">Isi formulir berikut, data Anda akan otomatis diarahkan ke admin WhatsApp resmi kami.</p>
+        </div>
+
+        <form id="regForm" class="space-y-5">
+          <div>
+            <label class="block text-sm font-semibold text-slate-700 mb-1">Nama Lengkap Siswa</label>
+            <input type="text" id="nama" required placeholder="Contoh: Budi Pratama" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-semibold text-slate-700 mb-1">Jenjang / Kelas</label>
+              <select id="kelas" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                <option value="">Pilih Jenjang</option>
+                <option value="SD (Kelas 4-6)">SD (Kelas 4-6)</option>
+                <option value="SMP (Kelas 7-9)">SMP (Kelas 7-9)</option>
+                <option value="SMA (Kelas 10-12)">SMA (Kelas 10-12)</option>
+                <option value="Alumni / Persiapan UTBK">Alumni / Persiapan UTBK</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-slate-700 mb-1">Asal Sekolah</label>
+              <input type="text" id="sekolah" required placeholder="Contoh: SMPN 1 Jakarta" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-slate-700 mb-1">Program yang Dipilih</label>
+            <select id="programPilihan" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+              <option value="Paket Reguler SD/SMP">Paket Reguler SD/SMP</option>
+              <option value="Paket Intensif SMA">Paket Intensif SMA</option>
+              <option value="Paket UTBK-SNBT & Kedinasan">Paket UTBK-SNBT & Kedinasan</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-slate-700 mb-1">Nomor WhatsApp Siswa / Orang Tua</label>
+            <input type="tel" id="whatsapp" required placeholder="Contoh: 081234567890" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-slate-700 mb-1">Catatan Tambahan (Opsional)</label>
+            <textarea id="catatan" rows="3" placeholder="Target nilai atau kebutuhan khusus belajar..." class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl shadow-md transition flex items-center justify-center gap-2">
+            Kirim Pendaftaran via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-6">
+      <div>
+        <div class="flex items-center justify-center sm:justify-start gap-2 mb-2">
+          <span class="p-1.5 bg-brand-600 text-white rounded font-bold text-sm">Δ</span>
+          <span class="text-white font-bold text-lg">Bimbel Delta</span>
+        </div>
+        <p class="text-sm">Membimbing dengan hati, mengantarkan menuju prestasi.</p>
+      </div>
+      <p class="text-xs">&copy; 2026 Bimbel Delta. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING WA BUTTON -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Bimbel%20Delta" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition hover:scale-105 z-50" title="Chat WhatsApp">
+    💬
+  </a>
+
+  <!-- SCRIPT INTEGRASI KE WA -->
+  <script>
+    const form = document.getElementById('regForm');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // GANTI NOMOR WA ADMIN DI SINI (Gunakan format 62...)
+      const adminPhone = "6281389183006";
+
+      const nama = document.getElementById('nama').value;
+      const kelas = document.getElementById('kelas').value;
+      const sekolah = document.getElementById('sekolah').value;
+      const program = document.getElementById('programPilihan').value;
+      const waUser = document.getElementById('whatsapp').value;
+      const catatan = document.getElementById('catatan').value || '-';
+
+      const pesan = `*PENDAFTARAN SISWA BARU - BIMBEL DELTA*%0A%0A` +
+                    `*Nama Siswa:* ${nama}%0A` +
+                    `*Jenjang/Kelas:* ${kelas}%0A` +
+                    `*Asal Sekolah:* ${sekolah}%0A` +
+                    `*Program Pilihan:* ${program}%0A` +
+                    `*No. WhatsApp:* ${waUser}%0A` +
+                    `*Catatan:* ${catatan}%0A%0A` +
+                    `Mohon info ketersediaan jadwal dan prosedur pembayarannya. Terima kasih!`;
+
+      // Buka link WhatsApp otomatis
+      window.open(`https://wa.me/${adminPhone}?text=${pesan}`, '_blank');
+    });
+  </script>
+</body>
+</html>
